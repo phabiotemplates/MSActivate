@@ -1,6 +1,7 @@
 @set masver=2.5
 @setlocal DisableDelayedExpansion
 @echo off
+export LANG=pt_BR
 
 ::::::
 ::  For command line switches, check mass grave[.]dev/command_line_switches.html
@@ -280,14 +281,14 @@ echo:             [3] KMS38       ^|  Windows           ^|   Ano 2038
 echo:             [4] Online KMS  ^|  Windows / Office  ^|   180 dias
 echo:             __________________________________________________      
 echo:
-echo:             [5] Estado de Ativacao
+echo:             [5] Estado de Ativação
 echo:             [6] Problemas
 echo:             [7] Extras
 echo:             [8] Ajuda
 echo:             [0] Sair
 echo:       ______________________________________________________________
 echo:
-call :_color2 %_White% "          " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,6,7,8,0] :"
+call :_color2 %_White% "          " %_Green% "Use as teclas [1,2,3,4,5,6,7,8,0] :"
 choice /C:123456780 /N
 set _erl=%errorlevel%
 
