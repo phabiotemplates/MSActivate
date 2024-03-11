@@ -269,7 +269,7 @@ mode 76, 30
 
 echo:       ______________________________________________________________
 echo:
-echo:             METODOS DE ATICACAO - MICROSOFT (WINDOWS / OFFICE)
+echo:             METODOS DE ATIVACAO - MICROSOFT (WINDOWS / OFFICE)
 echo:       ______________________________________________________________
 echo:
 echo:             [1] HWID        ^|  Windows           ^|   Permanente
