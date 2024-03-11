@@ -1,7 +1,7 @@
 @set masver=2.5
 @setlocal DisableDelayedExpansion
 @echo off
-export LANG=pt_BR
+
 
 ::::::
 ::  For command line switches, check mass grave[.]dev/command_line_switches.html
@@ -268,8 +268,7 @@ title  Microsoft_Activation_Scripts %masver%
 mode 76, 30
 
 echo:       ______________________________________________________________
-echo:
-echo:             METODOS DE ATICACAO - MICROSOFT
+echo:             METODOS DE ATICACAO - MICROSOFT (WINDOWS / OFFICE)
 echo:
 echo:             [1] HWID        ^|  Windows           ^|   Permanente
 echo:             [2] Ohook       ^|  Office            ^|   Permanente
@@ -284,12 +283,11 @@ echo:             [8] Ajuda
 echo:             [0] Sair
 echo:       ______________________________________________________________
 echo:
+echo: 
 call :_color2 %_White% "          " %_Green% "Use as teclas [1,2,3,4,5,6,7,8,0] :"
 choice /C:123456780 /N
 set _erl=%errorlevel%
-call :_color2 %_White% "          " %_Green% "Use as teclas [1,2,3,4,5,6,7,8,0] :"
-choice /C:123456780 /N
-set _erl=%errorlevel%
+
 
 if %_erl%==9 exit /b
 if %_erl%==8 start %mas%troubleshoot.html & goto :MainMenu
