@@ -268,7 +268,10 @@ title  Microsoft_Activation_Scripts %masver%
 mode 76, 30
 
 echo:       ______________________________________________________________
+echo:
 echo:             METODOS DE ATICACAO - MICROSOFT (WINDOWS / OFFICE)
+echo:
+echo:       ______________________________________________________________
 echo:
 echo:             [1] HWID        ^|  Windows           ^|   Permanente
 echo:             [2] Ohook       ^|  Office            ^|   Permanente
