@@ -267,13 +267,9 @@ color 07
 title  Microsoft_Activation_Scripts %masver%
 mode 76, 30
 
-echo:
-echo:
-echo:
-echo:
 echo:       ______________________________________________________________
 echo:
-echo:                 MICROSOFT:
+echo:             METODOS DE ATICACAO - MICROSOFT
 echo:
 echo:             [1] HWID        ^|  Windows           ^|   Permanente
 echo:             [2] Ohook       ^|  Office            ^|   Permanente
