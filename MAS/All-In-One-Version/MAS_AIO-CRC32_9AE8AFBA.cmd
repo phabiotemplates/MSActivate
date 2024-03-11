@@ -8764,21 +8764,21 @@ echo:
 echo:
 echo:       _______________________________________________________________
 echo:                                                   
-call :_color2 %_White% "             [1] " %_Green% "Help"
+call :_color2 %_White% "             [1] " %_Green% "Ajuda"
 echo:             ___________________________________________________
 echo:                                                                      
 echo:             [2] Dism RestoreHealth
-echo:             [3] SFC Scannow
+echo:             [3] Escanear SFC
 echo:                                                                      
-echo:             [4] Fix WMI
-echo:             [5] Fix Licensing
-echo:             [6] Fix WPA Registry
+echo:             [4] Resolver WMI
+echo:             [5] Resolver Licenca
+echo:             [6] Resolver Registrar WPA
 echo:             ___________________________________________________
 echo:
 echo:             [0] %_exitmsg%
 echo:       _______________________________________________________________
 echo:          
-call :_color2 %_White% "            " %_Green% "Enter a menu option in the Keyboard :"
+call :_color2 %_White% "            " %_Green% "Use o teclado numerico :"
 choice /C:1234560 /N
 set _erl=%errorlevel%
 
