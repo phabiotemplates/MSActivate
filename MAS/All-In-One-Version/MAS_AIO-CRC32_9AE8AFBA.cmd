@@ -272,12 +272,12 @@ echo:
 echo:
 echo:       ______________________________________________________________
 echo:
-echo:                 Activation Methods:
+echo:                 Método de Ativação:
 echo:
-echo:             [1] HWID        ^|  Windows           ^|   Permanent
-echo:             [2] Ohook       ^|  Office            ^|   Permanent
-echo:             [3] KMS38       ^|  Windows           ^|   Year 2038
-echo:             [4] Online KMS  ^|  Windows / Office  ^|    180 Days
+echo:             [1] HWID        ^|  Windows           ^|   Permanente
+echo:             [2] Ohook       ^|  Office            ^|   Permanente
+echo:             [3] KMS38       ^|  Windows           ^|   Ano 2038
+echo:             [4] Online KMS  ^|  Windows / Office  ^|    180 dias
 echo:             __________________________________________________      
 echo:
 echo:             [5] Activation Status
