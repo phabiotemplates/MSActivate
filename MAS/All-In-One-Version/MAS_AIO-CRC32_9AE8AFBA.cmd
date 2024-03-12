@@ -1,4 +1,4 @@
-@set masver=GITHUB
+@set masver=2.5
 @setlocal DisableDelayedExpansion
 @echo off
 
@@ -10,7 +10,7 @@
 
 ::============================================================================
 ::
-::   This script is a part of 'Microsoft_Activation_Scripts' (MAS) project.
+::   This script is a part of 'Microsoft_Activation' (MAS) project.
 ::
 ::   Homepage: mass grave[.]dev
 ::      Email: windowsaddict@protonmail.com
